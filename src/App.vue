@@ -1,26 +1,25 @@
 <template>
-  <Estudiante />
-  <br>
-  <br>
-  <br>
-  <GuardaEstudiante />
-  <ActualizarEstudiante/>
-  <EliminarEstudiante/>
+  <div id="app">
+    <NavBar />
+    <router-view />
+  </div>
 </template>
 
 <script>
-import Estudiante from './modules/estudiante/pages/ConsultaEstudiante.vue'
-import GuardaEstudiante from './modules/estudiante/pages/GuardaEstudiante.vue'
-import ActualizarEstudiante from './modules/estudiante/pages/ActualizarEstudiante.vue';
-import EliminarEstudiante from './modules/estudiante/pages/EliminarEstudiante.vue';
 
+// import Estudiante from './modules/estudiante/pages/ConsultaEstudiante.vue'
+// import GuardaEstudiante from './modules/estudiante/pages/GuardaEstudiante.vue'
+// import ActualizarEstudiante from './modules/estudiante/pages/ActualizarEstudiante.vue';
+// import EliminarEstudiante from './modules/estudiante/pages/EliminarEstudiante.vue';
+import NavBar from './modules/estudiante/components/NavBar.vue'
 export default {
   name: 'App',
   components: {
-    Estudiante,
-    GuardaEstudiante,
-    ActualizarEstudiante,
-    EliminarEstudiante
+    // Estudiante,
+    // GuardaEstudiante,
+    // ActualizarEstudiante,
+    // EliminarEstudiante
+    NavBar
   }
 }
 </script>

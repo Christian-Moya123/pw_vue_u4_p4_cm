@@ -1,4 +1,4 @@
-# pw_vue_u4_p4_cm
+# pw_vue_u4_p4_ca_cm
 
 ## Project setup
 ```
