@@ -5,7 +5,7 @@
 
             <label for="">Id</label>
             <input v-model="id" type="text">
-            <button @click="eliminarEstudiante">Consultar: </button>
+            <button  class="btn btn-outline-success" @click="eliminarEstudiante">Consultar: </button>
         </div>
 
         <div class="grupos">
@@ -91,7 +91,7 @@ button {
     width: 100%;
     padding: 10px;
     font-size: 20px;
-    background-color: #e62f2f;
+ 
     color: #fff;
     border-radius: 4px;
     cursor: pointer;

@@ -3,7 +3,7 @@
         <div class="grupos">
             <label for="">Cedula</label>
             <input v-model="cedula" type="text">
-            <button @click="consultarEstudiante">Consultar: </button>
+            <button  class="btn btn-outline-success" @click="consultarEstudiante">Consultar: </button>
         </div>
 
         <div class="grupos">
@@ -85,7 +85,7 @@ button {
     width: 100%;
     padding: 10px;
     font-size: 20px;
-    background-color: #e62f2f;
+  
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
